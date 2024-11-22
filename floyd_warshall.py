@@ -19,6 +19,13 @@ def floyd_warshall(cost_matrix):
 num_cities = int(input("Enter the number of cities: "))
 
 # Input the cost matrix
+#cost_matrix = [
+ #   [0, 3, INF, 7],
+  #  [3, 0, 2, INF],
+   # [INF, 2, 0, 1],
+   # [7, INF, 1, 0]
+#]
+
 cost_matrix = []
 print(f"Enter the cost matrix ({num_cities} x {num_cities}) row by row (use 'INF' for no direct path):")
 for i in range(num_cities):
